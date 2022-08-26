@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Maksim Zemlyanikin Blog</title>
+        <link>https://maksimka101.github.io/docusaurus-blog/blog</link>
+        <description>Maksim Zemlyanikin Blog</description>
+        <lastBuildDate>Thu, 25 Aug 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Welcome]]></title>
+            <link>https://maksimka101.github.io/docusaurus-blog/blog/welcome</link>
+            <guid>/welcome</guid>
+            <pubDate>Thu, 25 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hello there]]></description>
+            <content:encoded><![CDATA[<p>Hello there</p><p>I have created this blog to share my knowledge and thoughts about Dart, Flutter, app architecture and other tech
+related topics</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>
