@@ -33,7 +33,7 @@ export default function About() {
               Hey👋🏻
             </p>
             <p>
-              I'm working as a Flutter developer. Besides work, I like to watch cinema, learn science
+              I'm working as a Flutter developer. Besides work, I like to watch films, learn science
               and do some sports and pet projects
             </p>
             <h2>Some links:</h2>
