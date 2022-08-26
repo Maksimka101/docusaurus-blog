@@ -1,3 +1,6 @@
 {
-  "markdown.extension.preview.autoShowPreviewToSide": false
+  "markdown.extension.preview.autoShowPreviewToSide": false,
+  "yaml.schemas": {
+    "https://json.schemastore.org/github-workflow.json": "file:///Users/maksimzemlyanikin/Developer/docusaurus/docusaurus-blog/.github/workflows/deploy.yaml"
+  }
 }
