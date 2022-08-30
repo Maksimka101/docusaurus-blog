@@ -6,10 +6,10 @@ tags: [package, dart, flutter, isolates]
 ![Combine logo](combine_logo.png)
 
 One of the keys to the success application is a performance. At the most time it's fine to do everything 
-in the main Isolate. However sometimes you need to do some calculation which may take significant time - 
-8 or event 16 ms. In that cases you should create a new Isolate to do calculation in it. Dart's Isolates
-API is complicated. So it would be great to use a package which simplifies it's API. 
-In pub dev we have a lot of great packages but in this article I'll cover one new and special - 
+in the main Isolate. However sometimes you need to do some heavy task which may take significant time - 
+8 or event 16 ms. In that cases you should create a new Isolate to perform calculation in it. Dart's Isolates
+API is complicated. So it would be great to use a package which simplifies it. 
+In pub dev we have a lot of great packages for that and in this article I'll show one new and special - 
 [Combine](https://pub.dev/packages/combine)
 
 <!-- truncate -->
@@ -28,6 +28,7 @@ In pub dev we have a lot of great packages but in this article I'll cover one ne
 - Efficiently execute tasks in the Isolates pool
 - Use Method Channels in the Isolate
 - Laziness. Nothing will not be created until it's used
+- Stub on the web platform
 
 Let's go through each item!
 
@@ -46,8 +47,8 @@ to the main Isolate and to the platform. So I recommend you to be careful when w
 
 ## Comparison
 
-Each of these plugins is great however it's impossible to be perferc. So I'll try to show weakness and strengths 
-of Combine 
+Each of these plugins is great however it's impossible to be perfect. So I'll try to show weakness and strengths 
+of Combine.
 
 ### [Executor](https://pub.dev/packages/worker_manager)
 
