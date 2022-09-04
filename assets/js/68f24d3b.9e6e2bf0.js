@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus_blog=self.webpackChunkdocusaurus_blog||[]).push([[949],{648:u=>{u.exports=JSON.parse('{"label":"flutter","permalink":"/docusaurus-blog/blog/tags/flutter","allTagsPath":"/docusaurus-blog/blog/tags","count":1}')}}]);
