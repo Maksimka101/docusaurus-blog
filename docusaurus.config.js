@@ -66,6 +66,7 @@ const config = {
         copyright: `Built with Docusaurus.`,
       },
       prism: {
+        additionalLanguages: ['dart'],
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
