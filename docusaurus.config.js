@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Maksim Zemlyanikin",
+  title: "Maksim Zemlianikin",
   tagline: 'Blog about Flutter and tech',
   url: 'https://maksimka101.github.io/',
   baseUrl: '/docusaurus-blog/',
